@@ -1,0 +1,15 @@
+import tkinter
+
+#Hier die Funktion zum beenden
+def ende():
+    main.destroy()
+
+#Das Hauptfenster
+main = tkinter.Tk()
+
+#Der Button für Ende
+endbutton = tkinter.Button(main, text = "Ende", command = ende)
+endbutton.pack()
+
+#Damit es ausgeführt wird
+main.mainloop()
